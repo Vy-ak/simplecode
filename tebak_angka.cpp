@@ -8,7 +8,7 @@ int main(){
     int num,guess, percobaan = 0;
 
     srand(time(0));
-    num = rand() % 100 + 1;
+    num = rand() % 100 + 1; //rng
     cout << "Game tebak angka \n\n";
 
     do{
